@@ -1,10 +1,12 @@
 package app;
 import lib.Calculator;
+import lib.Show;
 
 public class GoodCalc extends Calculator{
 
 	
 	public static void main(String[] args) {
+		new Show();
 		Calculator c = new GoodCalc();
 		System.out.println(c.add(2, 3));
 		System.out.println(c.substract(2, 3));
